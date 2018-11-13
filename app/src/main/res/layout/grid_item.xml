@@ -2,23 +2,27 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:gravity="center"
     android:orientation="vertical"
     android:padding="12dp">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/gridImage"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="120dp"
+        android:layout_gravity="top|center_horizontal"
         android:padding="12dp"
         app:srcCompat="@drawable/arya" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/gridText"
         android:layout_width="match_parent"
-        android:layout_height="41dp"
-        android:gravity="center"
-        android:padding="12dp"
-        android:text="Arya" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-6dp"
+        android:layout_marginBottom="-2dp"
+        android:gravity="center_horizontal|center"
+        android:text="Arya"
+        android:textSize="16dp"
+        android:textStyle="bold" />
 </LinearLayout>
