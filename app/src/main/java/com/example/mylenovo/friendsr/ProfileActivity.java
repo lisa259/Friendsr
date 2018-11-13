@@ -47,7 +47,7 @@ public class ProfileActivity extends AppCompatActivity {
         RatingBar rating = findViewById(R.id.profileRating);
         rating.setRating(ratingScore);
 
-        // When clicked on ratingbar, call subclass below
+        // When clicked on ratingbar, call inner class below
         rating.setOnRatingBarChangeListener(new RatingBarChangeListener());
     }
 

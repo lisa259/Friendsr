@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         GridView grid = findViewById(R.id.grid);
         grid.setAdapter(adapter);
 
-        // When clicked on grid, call subclass below
+        // When clicked on grid, call inner class below
         grid.setOnItemClickListener(new GridItemClickListener());
     }
 
